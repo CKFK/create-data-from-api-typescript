@@ -87,7 +87,7 @@ export const createDataFromApi = (json: any) => {
 };
 
 //  หาช่วงอายุ
-function getAgeRange(age: number) {
+export const getAgeRange = (age: number) => {
   const ageRange = [
     { label: "13-19", condition: (age: number) => age >= 13 && age <= 19 },
     { label: "20-29", condition: (age: number) => age >= 20 && age <= 29 },
@@ -104,4 +104,4 @@ function getAgeRange(age: number) {
     }
   }
   return "Unknown Age Range";
-}
+};

@@ -1,4 +1,4 @@
-import { createDataFromApi } from "./functions/create-data-from-api";
+import { createDataFromApi } from "./functions/functions";
 import express from "express";
 import axios from "axios";
 import _ from "lodash";
